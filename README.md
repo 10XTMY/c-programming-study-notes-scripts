@@ -10,7 +10,7 @@ It contains borrowed code from CS50's GitHub repository, available [here](https:
 
 Coder notes on C programming inspired by CS50's 2024 Introduction to Computer Science course.
 
-<img src="images/davidmalan.png" width="320" height="320">
+<img src="images/DavidMalan.png" width="320" height="320">
 
 Presented by the amazing David J. Malan.
 
