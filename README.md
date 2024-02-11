@@ -101,6 +101,17 @@ union Data {
 } data;
 ```
 
+## Key Differences Between Structs and Unions
+
+### Memory Usage:
+
+* Structs allocate separate memory for each of their members.
+* Unions use a single shared memory space for all members.
+
+### Purpose:
+* Structs are meant for grouping different data items together, with each item accessed independently.
+* Unions are used for storing one of several types of data in the same space, useful for saving memory or dealing with different representations of the same data.
+
 ## Command Line Arguments
 
 * argc is the number of command line arguments.
@@ -152,17 +163,6 @@ int main() {
 
 
 ```
-
-## Key Differences Between Structs and Unions
-
-### Memory Usage:
-
-* Structs allocate separate memory for each of their members.
-* Unions use a single shared memory space for all members.
-
-### Purpose:
-* Structs are meant for grouping different data items together, with each item accessed independently.
-* Unions are used for storing one of several types of data in the same space, useful for saving memory or dealing with different representations of the same data.
 
 ## Linked Lists
 
