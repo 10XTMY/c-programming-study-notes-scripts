@@ -12,7 +12,7 @@ int main() {
     // %f for a float, %p for a pointer, etc
     printf("hello, %s\n", answer);
 
-    printf("\nloops demo..\n");
+    printf("\nloops demo..");
     demo_loops();
 
     printf("\nrecursion demo..\n");

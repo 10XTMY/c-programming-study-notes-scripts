@@ -19,7 +19,7 @@ void woof(void) {
 
 void demo_loops(void) {
 
-    printf("for loop..\n");
+    printf("\nfor loop..\n");
     for (int i = 0; i < 3; i++) {
         woof();
     }
