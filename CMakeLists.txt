@@ -8,7 +8,6 @@ include_directories(include)
 add_executable(practice src/main.c
         src/loops.c
         include/loops.h
-        include/main.h
         include/recursion.h
         src/recursion.c
         include/merge_sort.h

@@ -373,8 +373,7 @@ retrieval of strings in a dataset.
 * The path from the root to a node represents a prefix of some strings stored in the trie.
 * Space complexity: O(n * m), where n is the number of strings and m is the length of the longest string.
 * While tries can consume more space than some other data structures due to their tree-like nature and the need for 
-* nodes for each character in the set of stored strings, the actual space required is proportional to the sum of the 
-* lengths of all stored strings. 
+* nodes for each character in the set of stored strings, the actual space required is proportional to the sum of the lengths of all stored strings. 
 * Space optimization techniques, such as compressed tries or using hash maps instead of fixed-size arrays for child nodes, can mitigate the space concerns.
 * Time complexity: O(m), where m is the length of the string to be searched.
 * Powerful and efficient way to manage collections of strings for certain types of queries and operations. 
