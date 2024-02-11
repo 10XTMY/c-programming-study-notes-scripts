@@ -28,11 +28,12 @@ void copy_string() {
         t[i] = s[i]; // copy the ith character of s into the ith character of t
     }
     t[strlen(s)] = '\0'; // add the null terminator
+    // we can eliminate above line of code by using i <= n in the for loop^^
 
     if (strlen(t) > 0) {
         t[0] = toupper(t[0]); // capitalize the first letter of t
     }
-    // we can eliminate above line of code by using i <= n in the for loop^^
+
     printf("s: %s\n", s);
     printf("t: %s\n", t);
 
