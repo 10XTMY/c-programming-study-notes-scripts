@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-void copy_string() {
+void copy_string(void) {
     // get a string from the user
     char *s = get_string("\ns: ");
     if (!s) {

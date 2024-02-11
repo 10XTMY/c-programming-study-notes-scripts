@@ -5,4 +5,6 @@
 #ifndef PRACTICE_MAIN_H
 #define PRACTICE_MAIN_H
 
+int main(void);
+
 #endif //PRACTICE_MAIN_H

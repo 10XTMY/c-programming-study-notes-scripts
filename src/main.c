@@ -6,7 +6,7 @@
 #include <quick_sort.h>
 #include <copy_string.h>
 
-int main() {
+int main(void) {
     string answer = get_string("What's your name? \n");
     // %s is a placeholder for a string, %i for an integer,
     // %f for a float, %p for a pointer, etc
