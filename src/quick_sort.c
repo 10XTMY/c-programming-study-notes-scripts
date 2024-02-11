@@ -65,12 +65,11 @@ void quick_sort(int arr[], int low, int high) {
 }
 
 // Driver program to test above functions
-int run_quick_sort() {
+void run_quick_sort(void) {
     int arr[] = {10, 7, 8, 9, 1, 5};
     printf("\nGiven array: \n");
     int n = sizeof(arr) / sizeof(arr[0]);
     quick_sort(arr, 0, n - 1);
     printf("\nSorted array: \n");
     print_array(arr, n);
-    return 0;
 }
